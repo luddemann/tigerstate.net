@@ -15,7 +15,12 @@ const Home = () => {
 					<div className="flex-row gap-4 items-center font-semibold overflow-hidden hidden md:flex">
 						<Button text={"BIO"} size={"200px"} textSize={"text-xl"} />
 						<Button text={"MERCH"} size={"200px"} textSize={"text-xl"} />
-						<Button text={"CONTACT"} size={"200px"} textSize={"text-xl"} />
+						<Button
+							text={"CONTACT"}
+							size={"200px"}
+							textSize={"text-xl"}
+							link="/contact"
+						/>
 					</div>
 				</section>
 				<section className="pt-6 grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -23,7 +28,12 @@ const Home = () => {
 						<div className="flex-row gap-4 items-center font-semibold overflow-hidden flex md:hidden">
 							<Button text={"BIO"} size={"200px"} textSize={"text-xl"} />
 							<Button text={"MERCH"} size={"200px"} textSize={"text-xl"} />
-							<Button text={"CONTACT"} size={"200px"} textSize={"text-xl"} />
+							<Button
+								text={"CONTACT"}
+								size={"200px"}
+								textSize={"text-xl"}
+								link="/contact"
+							/>
 						</div>
 						<div className="bg-[#E87C99] p-2 mr-[-20px]">
 							<p className="text-white tracking-tighter text-lg text-shadow-2xl shadow-black">
