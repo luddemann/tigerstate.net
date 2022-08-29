@@ -31,7 +31,12 @@ const Home = () => {
 				<section className="pt-6 grid grid-cols-1 md:grid-cols-2 gap-12">
 					<div className="flex flex-col gap-8">
 						<div className="flex-row gap-4 items-center font-semibold overflow-hidden flex md:hidden">
-							<Button text={"BIO"} size={"200px"} textSize={"text-xl"} />
+							<Button
+								text={"BIO"}
+								size={"200px"}
+								textSize={"text-xl"}
+								link="/bio"
+							/>
 							<Button text={"MERCH"} size={"200px"} textSize={"text-xl"} />
 							<Button
 								text={"CONTACT"}

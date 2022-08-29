@@ -3,12 +3,13 @@ import ButtonBg from "../images/Orange_Button.png";
 import Shadow from "../images/Orange_Button_shadow.png";
 import Slanted from "../images/slanted.png";
 import Star from "../images/star_white.png";
+import { NavLink } from "react-router-dom";
 
 const Bio = () => {
 	return (
 		<div className="bg-blue-bg bg-fixed h-full w-full">
 			<div className="max-w-6xl min-h-screen m-auto p-6">
-				<section className="flex w-full">
+				<section className="flex w-full mb-6">
 					<img src={Slanted} className="w-1/3 h-2/3" alt="tigerstate" />
 					<div className="w-2/3">
 						<div
@@ -24,7 +25,7 @@ const Bio = () => {
 							<p
 								className={`w-full z-30 underline-offset-8 uppercase absolute top-[80%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-[5rem] md:text-[15rem]`}
 							>
-								Bios
+								Bio
 							</p>
 						</div>
 						<div className="text-white text-xl font-semibold mt-32 flex-col gap-7 hidden md:flex">
@@ -70,7 +71,7 @@ const Bio = () => {
 						</div>
 					</div>
 				</section>
-				<div className="text-white text-xl font-semibold mt-12 flex-col gap-7 flex md:hidden">
+				<div className="text-white text-xl font-semibold mt-12 flex-col gap-7 mb-12 flex md:hidden">
 					<p>
 						Tigerstate is an Oslo-based collective of musicians and singers
 						which was founded during the grim, early days of the pandemic. The
@@ -109,6 +110,9 @@ const Bio = () => {
 						special debut record, it's only a matter of time before they do.
 					</p>
 				</div>
+				<NavLink className="underline" to="/" exact="true">
+					back home
+				</NavLink>
 			</div>
 		</div>
 	);
