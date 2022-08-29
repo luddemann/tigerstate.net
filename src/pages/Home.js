@@ -13,7 +13,12 @@ const Home = () => {
 				<section className="flex flex-row gap-8 items-center justify-between">
 					<img src={Logo} alt="Logo" className="w-[50%]" />
 					<div className="flex-row gap-4 items-center font-semibold overflow-hidden hidden md:flex">
-						<Button text={"BIO"} size={"200px"} textSize={"text-xl"} />
+						<Button
+							text={"BIO"}
+							size={"200px"}
+							textSize={"text-xl"}
+							link="/bio"
+						/>
 						<Button text={"MERCH"} size={"200px"} textSize={"text-xl"} />
 						<Button
 							text={"CONTACT"}
@@ -49,7 +54,7 @@ const Home = () => {
 							<img
 								src={Tigerstate}
 								className="h-[350px] sm:h-auto object-cover"
-								alt="Band photo"
+								alt="Band"
 							/>
 						</div>
 						<div className="text-center relative">
@@ -91,17 +96,14 @@ const Home = () => {
 							pl="-mr-6"
 						/>
 						<div className="border-[15px] border-yellow-200 relative rounded-xl w-3/4 mb-6 md:mb-0">
-							<img
-								src={Carl}
-								className="w-full object-cover"
-								alt="Band photo"
-							/>
+							<img src={Carl} className="w-full object-cover" alt="Carl" />
 							<p className="absolute bottom-14 left-8 text-white text-4xl font-semibold tracking-wider">
 								CARL
 							</p>
 							<a
 								href="https://www.instagram.com/pietro_parmigianini"
 								target="_blank"
+								rel="noreferrer"
 								className="text-black font-semibold underline absolute -bottom-10"
 							>
 								click for his instagram
@@ -109,6 +111,7 @@ const Home = () => {
 							<a
 								href="https://www.instagram.com/tigerstate"
 								target="_blank"
+								rel="noreferrer"
 								className="text-black font-semibold underline absolute -bottom-16"
 							>
 								click for our instagram

@@ -21,22 +21,29 @@ const Releases = () => {
 						<a
 							href="https://open.spotify.com/album/0ORKCvap06oVArrFfw88t8?si=XPTCxl8BQXyI8SQVdAVNzg"
 							target="_blank"
+							rel="noreferrer"
 						>
-							<img src={Bedtime} className="w-3/4" alt="" />
+							<img src={Bedtime} className="w-3/4" alt="bedtime" />
 						</a>
 					</div>
 					<div className="pt-24">
 						<a
 							href="https://open.spotify.com/album/1ii3UbL5AnTBatU4vVXivL?si=s6mxSvHTSMqqf-OkNBQ6bw"
 							target="_blank"
+							rel="noreferrer"
 						>
-							<img src={Heartbeats} className="shadow-2xl" alt="" />
+							<img src={Heartbeats} className="shadow-2xl" alt="heartbeats" />
 						</a>
 						<a
 							href="https://open.spotify.com/album/2NBuUIbtamPbzALXPMpPAE?si=cP_8f15SSyCDDPrrtjPrSw"
 							target="_blank"
+							rel="noreferrer"
 						>
-							<img src={WhoseRules} className="mt-32 md:-ml-14 w-2/3" alt="" />
+							<img
+								src={WhoseRules}
+								className="mt-32 md:-ml-14 w-2/3"
+								alt="whoserules"
+							/>
 						</a>
 					</div>
 				</section>
@@ -47,8 +54,9 @@ const Releases = () => {
 					<a
 						href="https://open.spotify.com/artist/5IASPTbco70KYmxQwSg8E1?si=vj9O43JmQ4K6tBT3BSJqig"
 						target="_blank"
+						rel="noreferrer"
 					>
-						<img className="w-16" src={Spotify} alt="" />
+						<img className="w-16" src={Spotify} alt="spotify" />
 					</a>
 				</section>
 			</div>
