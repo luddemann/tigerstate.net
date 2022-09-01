@@ -2,7 +2,8 @@ import React from "react";
 import ButtonBg from "../images/Orange_Button.png";
 import Shadow from "../images/Orange_Button_shadow.png";
 import Slanted from "../images/slanted.png";
-import Star from "../images/star_white.png";
+import Star from "../images/star.png";
+import Train from "../images/togtog.png";
 import { NavLink } from "react-router-dom";
 
 const Bio = () => {
@@ -18,7 +19,7 @@ const Bio = () => {
 							<img src={Shadow} className="absolute w-full top-8 z-10" alt="" />
 							<img
 								src={Star}
-								className="absolute w-32 h-32 md:w-48 md:h-48 left-0 top-12 z-30"
+								className="absolute w-72 md:w-96 -left-24 md:-left-32 top-12 z-30"
 								alt=""
 							/>
 							<img className="w-full relative z-20" src={ButtonBg} alt="" />
@@ -110,6 +111,7 @@ const Bio = () => {
 						special debut record, it's only a matter of time before they do.
 					</p>
 				</div>
+				<img src={Train} className="w-[450px] -mt-24" alt="togskilt" />
 				<NavLink className="underline" to="/" exact="true">
 					back home
 				</NavLink>

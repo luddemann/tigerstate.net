@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import ButtonBg from "../images/Orange_Button.png";
 import Shadow from "../images/Orange_Button_shadow.png";
+import RainbowStar from "../images/rainbowstar.png";
 
 const Button = ({
 	text,
@@ -11,6 +12,7 @@ const Button = ({
 	animation,
 	shadow,
 	link,
+	star,
 }) => {
 	return (
 		<div
@@ -18,6 +20,13 @@ const Button = ({
 		>
 			{shadow && (
 				<img src={Shadow} className="absolute right-6 top-6 " alt="" />
+			)}
+			{star && (
+				<img
+					src={RainbowStar}
+					alt="rainbow star"
+					className="w-16 h-16 md:w-32 md:h-32 absolute right-0 -top-2 md:-top-10 z-40"
+				/>
 			)}
 			<NavLink className="w-full" exact="true" disabled to={`${link}`}>
 				<img className="w-full relative z-20" src={ButtonBg} alt="" />

@@ -45,7 +45,15 @@ const Home = () => {
 								link="/contact"
 							/>
 						</div>
-						<div className="bg-[#E87C99] p-2 mr-[-20px]">
+
+						<div className="border-[15px] border-yellow-500 rounded-xl">
+							<img
+								src={Tigerstate}
+								className="h-[350px] sm:h-auto object-cover"
+								alt="Band"
+							/>
+						</div>
+						<div className="bg-[#E87C99] p-4">
 							<p className="text-white tracking-tighter text-lg text-shadow-2xl shadow-black">
 								Tigerstate is an Oslo-based collective of musicians and singers
 								which was founded during the grim, early days of the pandemic.
@@ -54,13 +62,6 @@ const Home = () => {
 								circle in the Oslo underground for a while decided to join
 								forces on a common project.
 							</p>
-						</div>
-						<div className="border-[15px] border-yellow-500 rounded-xl">
-							<img
-								src={Tigerstate}
-								className="h-[350px] sm:h-auto object-cover"
-								alt="Band"
-							/>
 						</div>
 						<div className="text-center relative">
 							<NavLink
@@ -78,6 +79,7 @@ const Home = () => {
 					<div className="flex flex-col gap-20 pb-5">
 						<Button
 							text={"hot pix!!!"}
+							star
 							size={"full"}
 							textSize={"text-6xl"}
 							underline="underline"
