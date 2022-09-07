@@ -8,9 +8,9 @@ import Carl from "../images/CARL.png";
 
 const Home = () => {
   return (
-    <div className="bg-blue-bg bg-fixed h-full w-full">
+    <div className="bg-blue-bg bg-fixed h-full w-full font-inter">
       <div className="max-w-6xl min-h-screen m-auto p-6">
-        <section className="flex flex-row gap-8 items-center justify-between">
+        <section className="flex relative flex-row gap-8 items-center justify-between">
           <img src={Logo} alt="Logo" className="w-[50%]" />
           <div className="flex-row gap-4 items-center font-semibold overflow-hidden hidden md:flex">
             <Button
@@ -51,7 +51,17 @@ const Home = () => {
               />
             </div>
 
-            <div className="border-[15px] border-yellow-500 rounded-xl">
+            <div className="border-[15px] border-yellow-500 rounded-xl relative">
+              <div className="absolute -top-12 -left-12">
+                <Button
+                  text={"new song alert click here!"}
+                  size={"50px"}
+                  textSize={"text-lg"}
+                  link="/musicvideos"
+                  animation={"bounce"}
+                  yell
+                />
+              </div>
               <img
                 src={Tigerstate}
                 className="h-[350px] sm:h-auto object-cover"

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const MusicVideos = () => {
   return (
-    <div className="bg-blue-bg-releases bg-fixed h-full w-full">
+    <div className="bg-blue-bg-releases bg-fixed h-full w-full font-inter">
       <div className="max-w-6xl min-h-screen m-auto p-6">
         <div className="flex flex-col gap-24 items-center">
           <iframe
