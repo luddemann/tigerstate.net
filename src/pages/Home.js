@@ -42,7 +42,12 @@ const Home = () => {
                 textSize={"text-xl"}
                 link="/bio"
               />
-              <Button text={"MERCH"} size={"200px"} textSize={"text-xl"} />
+              <Button
+                text={"MERCH"}
+                size={"200px"}
+                textSize={"text-xl"}
+                link="/merch"
+              />
               <Button
                 text={"CONTACT"}
                 size={"200px"}
@@ -52,13 +57,12 @@ const Home = () => {
             </div>
 
             <div className="border-[15px] border-yellow-500 rounded-xl relative">
-              <div className="absolute -top-12 -left-12">
+              <div className="absolute -bottom-12 md:-top-12 -left-6 md:-left-12">
                 <Button
                   text={"new song alert click here!"}
                   size={"50px"}
                   textSize={"text-lg"}
                   link="/musicvideos"
-                  animation={"bounce"}
                   yell
                 />
               </div>
@@ -80,7 +84,7 @@ const Home = () => {
             </div>
             <div className="text-center relative">
               <NavLink
-                className="z-20 text-[4.5rem] text-shadow-xl shadow-black underline underline-offset-8 font-semibold text-white leading-tight absolute top-[15px] left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                className="z-20 text-6xl md:text-[4.5rem] text-shadow-xl shadow-black underline underline-offset-8 font-semibold text-white leading-tight absolute top-[15px] left-1/2 transform -translate-x-1/2 -translate-y-1/2"
                 exact="true"
                 to="/releases"
               >
@@ -96,15 +100,16 @@ const Home = () => {
               text={"hot pix!!!"}
               star
               size={"full"}
-              textSize={"text-6xl"}
+              textSize={"text-4xl md:text-6xl"}
               underline="underline"
               shadow={true}
               pl="-mr-6"
+              link="/hotpix"
             />
             <Button
               text={"music videos"}
               size={"full"}
-              textSize={"text-6xl"}
+              textSize={"text-4xl md:text-6xl"}
               underline="underline"
               shadow={true}
               pl="-mr-6"
@@ -113,7 +118,7 @@ const Home = () => {
             <Button
               text={"live shows"}
               size={"full"}
-              textSize={"text-6xl"}
+              textSize={"text-4xl md:text-6xl"}
               underline="underline"
               shadow={true}
               pl="-mr-6"

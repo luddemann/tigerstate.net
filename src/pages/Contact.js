@@ -23,7 +23,7 @@ const Contact = () => {
             alt="buttonback"
           />
           <p
-            className={` w-full z-30 underline-offset-8 uppercase absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-7xl`}
+            className={` w-full z-30 underline-offset-8 uppercase absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl md:text-7xl`}
           >
             Contact
           </p>
@@ -31,7 +31,7 @@ const Contact = () => {
         <section className="text-center m-auto mt-56">
           <a
             className="underline underline-offset-8 text-2xl md:text-6xl font-semibold"
-            href="https://gmail.com"
+            href="mailto:stateoftiger@gmail.com"
           >
             stateoftiger@gmail.com
           </a>

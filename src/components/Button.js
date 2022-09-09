@@ -30,20 +30,42 @@ const Button = ({
           className="w-16 h-16 md:w-32 md:h-32 absolute right-0 -top-2 md:-top-10 z-40"
         />
       )}
-      <NavLink className="w-full" exact="true" disabled to={`${link}`}>
-        <img
-          className={`${yell ? "w-48" : "w-full"} relative z-20`}
-          src={yell ? Yell : ButtonBg}
-          alt=""
-        />
-        <p
-          className={`${underline} animate-${animation} w-full z-30 font-bold underline-offset-8 uppercase absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
-            yell ? "text-shadow-2xl shadow-black text-white" : "text-white"
-          } ${textSize}`}
+      {yell ? (
+        <a
+          href="https://open.spotify.com/album/3lEFSfQkXBH3MZrvnyHHBy?si=EvkZIWjVRzyG-iGNjumLkQ"
+          target="_blank"
+          rel="noreferrer"
+          className="w-full"
         >
-          {text}
-        </p>
-      </NavLink>
+          <img
+            className={`${yell ? "w-48" : "w-full"} relative z-20`}
+            src={yell ? Yell : ButtonBg}
+            alt=""
+          />
+          <p
+            className={`${underline} animate-${animation} w-full z-30 font-md underline-offset-8 uppercase absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
+              yell ? "text-shadow-2xl shadow-black text-white" : "text-white"
+            } ${textSize}`}
+          >
+            {text}
+          </p>
+        </a>
+      ) : (
+        <NavLink className="w-full" exact="true" disabled to={`${link}`}>
+          <img
+            className={`${yell ? "w-48" : "w-full"} relative z-20`}
+            src={yell ? Yell : ButtonBg}
+            alt=""
+          />
+          <p
+            className={`${underline} animate-${animation} w-full z-30 font-md underline-offset-8 uppercase absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
+              yell ? "text-shadow-2xl shadow-black text-white" : "text-white"
+            } ${textSize}`}
+          >
+            {text}
+          </p>
+        </NavLink>
+      )}
     </div>
   );
 };
