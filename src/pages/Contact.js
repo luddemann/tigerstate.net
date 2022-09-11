@@ -28,14 +28,44 @@ const Contact = () => {
             Contact
           </p>
         </div>
-        <section className="text-center m-auto mt-56">
-          <a
-            className="underline underline-offset-8 text-2xl md:text-6xl font-semibold"
-            href="mailto:stateoftiger@gmail.com"
-          >
-            stateoftiger@gmail.com
-          </a>
-          <img className="block m-auto mt-5 mb-52" src={Palett} alt="palett" />
+        <section className="flex flex-col gap-8 mt-24">
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            <p>MGMT:</p>
+            <a
+              className="underline underline-offset-8 text-2xl md:text-4xl text-blue-800 font-semibold"
+              href="mailto:michael@furosound.no"
+            >
+              michael@furosound.no
+            </a>
+          </div>
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            <p>Booking Norway:</p>
+            <a
+              className="underline underline-offset-8 text-2xl md:text-4xl text-blue-800 font-semibold"
+              href="mailto:markus@polarartist.no"
+            >
+              markus@polarartist.no
+            </a>
+          </div>
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            <p>Booking EU:</p>
+            <a
+              className="underline underline-offset-8 text-2xl md:text-4xl text-blue-800 font-semibold"
+              href="mailto:guillaume@hometown-talent.com"
+            >
+              guillaume@hometown-talent.com
+            </a>
+          </div>
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            <p>UK/international press: </p>
+            <a
+              className="underline underline-offset-8 text-2xl md:text-4xl text-blue-800 font-semibold"
+              href="mailto:ashley@mbcpr.com"
+            >
+              ashley@mbcpr.com
+            </a>
+          </div>
+          <img className="block m-auto mt-5 mb-8" src={Palett} alt="palett" />
         </section>
         <NavLink className="underline mt-44" to="/" exact="true">
           back home
