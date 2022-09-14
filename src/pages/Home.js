@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../images/logovectorwhite.png";
-import Tigerstate from "../images/tigerstate_photo.jpg";
+import Tigerstate from "../images/tigerstate_photo.JPG";
 import CD from "../images/CD_releases.png";
 import Button from "../components/Button";
 import { NavLink } from "react-router-dom";
