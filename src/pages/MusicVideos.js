@@ -9,6 +9,15 @@ const MusicVideos = () => {
 					<iframe
 						className="w-full sm:w-1/2 md:w-2/3"
 						height="315"
+						src="https://www.youtube.com/embed/EQZ87CrB2KI"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+					<iframe
+						className="w-full sm:w-1/2 md:w-2/3"
+						height="315"
 						src="https://www.youtube.com/embed/MW1HjTdgFKg"
 						title="YouTube video player"
 						frameborder="0"
