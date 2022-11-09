@@ -8,9 +8,12 @@ import LiveShows from "./pages/LiveShows";
 import Merch from "./pages/Merch";
 import HotPix from "./pages/HotPix";
 
+import ScrollToTop from "./helpers/ScrollToTop";
+
 const App = () => {
   return (
     <Router>
+    <ScrollToTop />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/releases" element={<Releases />} />
