@@ -46,10 +46,10 @@ const Bio = () => {
 								sense of the word.
 							</p>
 							<p>
-								After releasing two critically acclaimend EPs in 2021, the band
+								After releasing two critically acclaimed EPs in 2021, the band
 								is ready to drop their debut album this autumn. They have so far
 								enjoyed heavy radio rotation on NRK P3 in Norway (their answer
-								to BBC6), and also featured regurarly on several international
+								to BBC6), and also featured regularly on several international
 								Spotify playlists thus far.
 							</p>
 							<p>
@@ -59,7 +59,7 @@ const Bio = () => {
 								sense of fun and urgency that really captivates an audience.
 							</p>
 							<p>
-								In additio nto all of this, the track "Summer Nights" has been
+								In addition to all of this, the track "Summer Nights" has been
 								the soundtrack of a pan-European advertising campaign for the
 								famous drinks brand Martini this summer.
 							</p>
@@ -88,10 +88,10 @@ const Bio = () => {
 						Tigerstate is a collective in every sense of the word.
 					</p>
 					<p>
-						After releasing two critically acclaimend EPs in 2021, the band is
+						After releasing two critically acclaimed EPs in 2021, the band is
 						ready to drop their debut album this autumn. They have so far
 						enjoyed heavy radio rotation on NRK P3 in Norway (their answer to
-						BBC6), and also featured regurarly on several international Spotify
+						BBC6), and also featured regularly on several international Spotify
 						playlists thus far.
 					</p>
 					<p>
