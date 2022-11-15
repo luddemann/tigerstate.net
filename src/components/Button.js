@@ -32,7 +32,7 @@ const Button = ({
       )}
       {yell ? (
         <a
-          href="https://open.spotify.com/track/62nxZkLnbSygPXKiaWFQuH?si=b8c01aaf04f5466d"
+          href="https://open.spotify.com/album/3qxlqSWXF4GXip7qAxTiay?si=wrxzYa4tRn6ak2dj8kN5Hw"
           target="_blank"
           rel="noreferrer"
           className="w-full"

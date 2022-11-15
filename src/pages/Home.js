@@ -59,7 +59,7 @@ const Home = () => {
 						<div className="border-[15px] border-yellow-500 rounded-xl relative">
 							<div className="absolute -bottom-12 md:-top-12 -left-6 md:-left-12">
 								<Button
-									text={"new song alert click here!"}
+									text={"new album alert click here!"}
 									size={"50px"}
 									textSize={"text-lg"}
 									link="/musicvideos"
