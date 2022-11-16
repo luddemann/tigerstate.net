@@ -68,7 +68,7 @@ const Home = () => {
 							</div>
 							<img
 								src={Tigerstate}
-								className="h-[350px] sm:h-auto object-cover"
+								className="h-[300px] w-full sm:h-auto object-cover"
 								alt="Band"
 							/>
 						</div>

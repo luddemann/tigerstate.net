@@ -3,6 +3,7 @@ import CD from "../images/CD_releases.png";
 import Heartbeats from "../images/heartbeats_cover.png";
 import Bedtime from "../images/trippy_cover_gif.gif";
 import WhoseRules from "../images/whoserules.png";
+import Tigerstate from "../images/tigerstate-album.png";
 import Spotify from "../images/Spotify_Icon_RGB_Green.png";
 import { NavLink } from "react-router-dom";
 
@@ -19,11 +20,18 @@ const Releases = () => {
 							<img className="z-10" src={CD} alt="CD" />
 						</div>
 						<a
+							href="https://open.spotify.com/album/3qxlqSWXF4GXip7qAxTiay?si=eguyPT27Q-iyyv3KpVgjYA"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img src={Tigerstate} className="shadow-2xl" alt="tigerstate" />
+						</a>
+						<a
 							href="https://open.spotify.com/album/0ORKCvap06oVArrFfw88t8?si=XPTCxl8BQXyI8SQVdAVNzg"
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img src={Bedtime} className="w-3/4" alt="bedtime" />
+							<img src={Bedtime} className="mt-40 ml-20 w-3/4" alt="bedtime" />
 						</a>
 					</div>
 					<div className="pt-24">
@@ -32,7 +40,7 @@ const Releases = () => {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img src={Heartbeats} className="shadow-2xl" alt="heartbeats" />
+							<img src={Heartbeats} className="w-5/6" alt="heartbeats" />
 						</a>
 						<a
 							href="https://open.spotify.com/album/2NBuUIbtamPbzALXPMpPAE?si=cP_8f15SSyCDDPrrtjPrSw"
@@ -41,7 +49,7 @@ const Releases = () => {
 						>
 							<img
 								src={WhoseRules}
-								className="mt-32 md:-ml-14 w-2/3"
+								className="mt-32 ml-12 md:ml-32 w-2/3"
 								alt="whoserules"
 							/>
 						</a>
