@@ -10,11 +10,11 @@ const LiveShows = () => {
 				</h1>
 				<div className="my-16">
 					<p className="text-3xl text-pink-900 font-black">
-						Oslo, Parkteatret 07.01.2023
+						London, O2 Academy Islington 10.05.2023
 					</p>
 					<a
 						className="underline text-2xl text-blue-800"
-						href="https://www.parkteatret.no/arrangement/tigerstate-2"
+						href="https://www.ticketmaster.co.uk/tigerstate-london-10-05-2023/event/3E005E84A2040ACE?irgwc=1&utm_source=296934-Spotify&utm_medium=affiliate&utm_campaign=296934&awtrc=&clickId=zj6VHkXw9xyNR4K0-Lw1QVHwUkAQacTFgVw5Uk0&camefrom=CFC_BUYAT_296934&ircid=7559"
 						target="_blank"
 						rel="noreferrer"
 					>
@@ -22,12 +22,12 @@ const LiveShows = () => {
 					</a>
 				</div>
 				<div className="my-16">
-					<p className="text-3xl text-orange-900 font-black">
-						Stavanger, Tou 13.01.2023
+					<p className="text-3xl text-purple-900 font-black">
+						Brighton, The Great Escape 12.05.2023
 					</p>
 					<a
 						className="underline text-2xl text-blue-800"
-						href="https://www.linticket.no/page/no/event/15/13301"
+						href="https://www.ticketweb.uk/event/the-great-escape-festival-2023-various-venues-brighton-tickets/12104035"
 						target="_blank"
 						rel="noreferrer"
 					>
@@ -35,38 +35,12 @@ const LiveShows = () => {
 					</a>
 				</div>
 				<div className="my-16">
-					<p className="text-3xl text-green-900 font-black">
-						Bergen, Kulturhuset 14.01.2023
+					<p className="text-3xl text-indigo-700 font-black">
+						Oslo, Øyafestivalen 10.08.2023
 					</p>
 					<a
 						className="underline text-2xl text-blue-800"
-						href="https://kulturhusetibergen.ticketco.events/no/nb/e/tigerstate"
-						target="_blank"
-						rel="noreferrer"
-					>
-						TICKETS!!!
-					</a>
-				</div>
-				<div className="my-16">
-					<p className="text-3xl text-indigo-900 font-black">
-						Drammen, Union Scene 27.01.2023
-					</p>
-					<a
-						className="underline text-2xl text-blue-800"
-						href="https://www.drammenscener.no/union/program/18818-tigerstate/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						TICKETS!!!
-					</a>
-				</div>
-				<div className="my-16">
-					<p className="text-3xl text-teal-900 font-black">
-						Fredrikstad, St. Croix 28.01.2023
-					</p>
-					<a
-						className="underline text-2xl text-blue-800"
-						href="https://checkout.ebillett.no/178/events/120008/purchase/setup"
+						href="https://www.ticketmaster.no/event/torsdagsbillett-yafestivalen-2023-billetter/703357?clickId=zj6VHkXw9xyNR4K0-Lw1QVHwUkAQaZS9gVw5Uk0&irgwc=1&utm_source=Spotify&utm_medium=affiliate&utm_campaign=296934&utm_content=1220128_8215"
 						target="_blank"
 						rel="noreferrer"
 					>
