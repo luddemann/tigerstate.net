@@ -28,16 +28,27 @@ const Contact = () => {
 						Contact
 					</p>
 				</div>
-				<section className="flex flex-col gap-8 mt-24">
-					<div className="flex flex-col md:flex-row gap-4">
-						<a
-							className="underline underline-offset-8 text-2xl md:text-4xl text-blue-800 font-semibold"
-							href="mailto:stateoftiger@gmail.com"
-						>
-							stateoftiger@gmail.com
-						</a>
-					</div>
-					<img className="block mt-5 mb-8" src={Palett} alt="palett" />
+				<section className="flex flex-col mt-24">
+					<a
+						className="underline underline-offset-8 text-2xl md:text-4xl text-blue-800 font-semibold"
+						href="mailto:stateoftiger@gmail.com"
+					>
+						stateoftiger@gmail.com
+					</a>
+					<h2 className="mt-12 text-black font-bold uppercase text-2xl">Booking:</h2>
+					<a
+						className="underline underline-offset-8 text-2xl mb-6 md:text-4xl text-blue-800 font-semibold"
+						href="mailto:vegard@livenation.no"
+					>
+						vegard@livenation.no
+					</a>
+					<a
+						className="underline underline-offset-8 text-2xl md:text-4xl text-blue-800 font-semibold"
+						href="mailto:thale@timeout.no"
+					>
+						thale@timeout.no
+					</a>
+					<img className="block mt-12 mb-8" src={Palett} alt="palett" />
 				</section>
 				<NavLink className="underline mt-44" to="/" exact="true">
 					back home
